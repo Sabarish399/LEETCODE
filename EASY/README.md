@@ -1,4 +1,4 @@
-# Easy Problems
+# EASY Problems
 
 This folder contains solutions to **LeetCode** Easy problems.  
 Each file includes:
