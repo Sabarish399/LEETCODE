@@ -1,5 +1,8 @@
-//13. Roman to Integer
-
+// Problem: 13. Roman to Integer
+// Link: https://leetcode.com/problems/roman-to-integer/
+// Approach: Convert each Roman character to its integer value. Iterate through the array and subtract if a smaller number comes before a bigger one; otherwise, add it.
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 
 class Solution {
     public int romanToInt(String s) 
