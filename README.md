@@ -1,21 +1,37 @@
-# LeetCode Progress Tracker
+# LeetCode Progress Tracker  
 
-## 📌 Introduction
-This repository is dedicated to logging my progress on **LeetCode** as I practice solving coding challenges. It serves as a space to document solutions, track improvement, and share approaches to various problems.
+## Introduction  
+This repo is where I keep track of my **LeetCode practice**. I solve problems daily, upload the solutions, and note down my approach in a simple format.  
 
-## 🎯 About
-The main goals of this repository are:
-- Strengthening problem-solving and algorithmic thinking.  
-- Building a strong foundation for **coding interviews** and technical assessments.  
-- Tracking my journey as a 2nd-year engineering student exploring **data structures and algorithms**.  
+## Goals  
+- Improve problem-solving skills  
+- Get better at **data structures and algorithms**  
+- Prepare for coding interviews  
+- Stay consistent with daily practice  
 
-## 📂 Structure
-The repository is organized as follows:
-- **Difficulty**: Problems are categorized into **Easy**, **Medium**, and **Hard** folders.  
-- **Topics** *(optional expansion later)*: Sub-categories like Arrays, Strings, Dynamic Programming, Graphs, etc.  
-- **Format**: Each solution file may contain:
-  - The **problem statement/summary**.  
-  - The **code solution** (Java/Python/other).  
-  - An **explanation** of the approach and reasoning.  
+## Structure  
+- Problems are grouped into **Easy**, **Medium**, and **Hard** folders.  
+- Each file has:  
+  - Problem number & name  
+  - Link to the problem  
+  - Approach in simple words  
+  - Time & Space complexity  
 
-Example structure:
+## How to Use  
+- Go to the right folder (Easy/Medium/Hard).  
+- Open the file to see the solution and explanation.  
+- Use this repo as a reference or for your own practice.  
+
+## 🤝 Contributions  
+This repo is mainly for my own learning, but if you see a better way to solve something, feel free to:  
+- Open an issue  
+- Make a pull request  
+
+## Contact  
+- **GitHub**: https://github.com/Sabarish399/
+- **Email**: sabarishkumar399@gmail.com  
+- **LinkedIn**: www.linkedin.com/in/sabarish-kumar-
+  
+---  
+
+⭐ If you like this repo, don’t forget to star it!  
