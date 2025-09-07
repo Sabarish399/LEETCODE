@@ -1,4 +1,8 @@
-//1672. Richest Customer Wealth
+// Problem: 1672. Richest Customer Wealth
+// Link: https://leetcode.com/problems/richest-customer-wealth/
+// Approach: Calculate row sum for each customer, track the maximum.
+// Time Complexity: O(m*n)
+// Space Complexity: O(1)
 
 class Solution {
     public int maximumWealth(int[][] accounts) 
