@@ -1,4 +1,4 @@
-# LeetCode Medium Problems - Java Solutions
+# Medium Problems
 
 This repository contains my solutions to **LeetCode Medium problems** in Java.  
 Each file includes:
