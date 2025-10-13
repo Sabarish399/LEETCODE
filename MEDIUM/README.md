@@ -1,6 +1,6 @@
 # Medium Problems
 
-This repository contains my solutions to **LeetCode Medium problems** in Java.  
+This folder contains solutions to **LeetCode Medium problems** in Java.  
 Each file includes:
 
 - **Problem title and number**  
