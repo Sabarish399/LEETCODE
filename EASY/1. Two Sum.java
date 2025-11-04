@@ -1,26 +1,32 @@
 // Problem: 1. Two Sum
 // Link: https://leetcode.com/problems/two-sum/
-// Approach: Use two nested loops to check every pair of numbers. If the sum equals the target, return their indices.
-// Time Complexity: O(n^2) 
-// Space Complexity: O(1)
+// Approach:
+// - Use a **HashMap** to store each number’s value and its corresponding index.
+// - For each element in the array:
+//     • Compute the complement (`target - nums[i]`).
+//     • Check if the complement exists in the map — if yes, return the two indices.
+//     • Otherwise, add the current number and its index to the map.
+// - This approach avoids nested loops, reducing time complexity.
+//
+// Time Complexity: O(n) — each element is processed once.
+// Space Complexity: O(n) — for storing elements in the HashMap.
 
 class Solution 
 {
-    public int[] twoSum(int[] nums, int target)
+    public int[] twoSum(int[] nums, int target) 
     {
-        int [] arr = new int[2];
-        for(int i=0;i<nums.length;i++)
+         Map<Integer, Integer> numMap = new HashMap<>();
+        int n = nums.length;
+
+        for (int i = 0; i < n; i++) 
         {
-            for(int j=i+1;j<nums.length;j++)
+            int complement = target - nums[i];
+            if (numMap.containsKey(complement)) 
             {
-                if(nums[i]+nums[j]==target)
-                {
-                    arr[0] = i;
-                    arr[1]=j;
-                
-                }
+                return new int[]{numMap.get(complement), i};
             }
+            numMap.put(nums[i], i);
         }
-          return arr;
+        return new int[]{}; 
     }
 }
